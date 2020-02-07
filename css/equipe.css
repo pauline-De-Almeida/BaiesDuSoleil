@@ -1,15 +1,16 @@
 .equipe{
     margin: 2%;
 }
-.elsa{
-    width: 20%;
+
+.back-color {
+    background-color: #FF7F50 !important;
 }
-.mia{
-    width: 50%;
+
+.pere-text a {
+    color : #fff176 !important;
 }
-.riley{
-    width: 30%;
-}
-.lana{
-    width: 30%;
+
+.pere-text a:hover, .pere-text a:focus {
+    text-decoration: underline;
+    color : yellow !important;
 }
