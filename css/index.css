@@ -1,0 +1,50 @@
+.carroussel {
+    height: calc(100VH - 64px);
+    background-color: #FFF;
+    text-align: center;
+}
+
+.carroussel .produit img {
+    height: 80%;
+    max-width: 100%;
+}
+
+.produit {
+    max-width : 100%;
+    height: 100%;
+}
+
+.cache {
+    display: none;
+}
+
+.carroussel .produit p {
+    height: 17%;
+    background-color: inherit;
+    font-size: 1.25rem;
+}
+
+.max-vh {
+    height: 100VH;
+    width: 100%;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: table-row;
+}
+
+.video {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.divPrez{
+    height: calc(50% - 2.8rem);
+    margin-left: .5rem;
+}
