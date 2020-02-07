@@ -1,21 +1,24 @@
 var nombre = 1;
 
-function changerIm (n) { /*n est à montrer*/
-    afficher(document.getElementById("img"+n));
-    cacher(document.getElementById("img"+getAutre(n)));
+function changerIm (n) { /*n est le current*/
+    afficher(document.getElementById("img"+n), n);
+cacher(document.getElementById("img"+getAutre(n)), getAutre(n));
     nombre = getAutre(n);
     console.log("passe, n = " + nombre)
 }
 
-function cacher (im) {
+function cacher (im, n) {
     console.log("chacher : " + im);
     im.classList.add("cache");
+    document.getElementById("page"+n).classList.remove("pageActive");
     im.classList.remove("affiche");
 }
 
-function afficher (im) {
+function afficher (im, n) {
     console.log("afficher : " + im);
     im.classList.remove("cache");
+    document.getElementById("page"+n).classList.add("pageActive");
+    console.log("activation : " + document.getElementById("page"+n));
     im.classList.add("affiche");
 }
 

@@ -1,3 +1,8 @@
+nav {
+    width: 80%;
+    padding : 0 10% 0 10%;
+}
+
 .carroussel {
     height: calc(100VH - 64px);
     background-color: #FFF;
@@ -47,4 +52,23 @@
 .divPrez{
     height: calc(50% - 2.8rem);
     margin-left: .5rem;
+}
+
+.pagination p span {
+    font-size: 1.25rem;
+    margin : .5rem;
+    cursor :pointer;
+}
+
+.pageActive {
+    color : red;
+    font-size : 1.3rem !important;
+}
+
+.pagination {
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    width :20%;
+    text-align: justify;
 }
