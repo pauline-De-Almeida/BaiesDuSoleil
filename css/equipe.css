@@ -14,3 +14,12 @@
     text-decoration: underline;
     color : yellow !important;
 }
+
+main img {
+    max-height: 30vh;
+    margin : auto ;
+}
+
+.card-content {
+    padding : 2% !important;
+}
