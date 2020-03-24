@@ -88,3 +88,11 @@ nav {
 .img {
     text-align : center !important;
 }
+
+.vid {
+    width: 100%;
+    margin-left: 50%;
+}
+.logo{
+    width: 7%;
+}

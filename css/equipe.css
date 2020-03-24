@@ -3,7 +3,7 @@
 }
 
 .back-color {
-    background-color: #FF7F50 !important;
+    background-color: #f18972 !important;
 }
 
 .pere-text a {
@@ -22,4 +22,7 @@ main img {
 
 .card-content {
     padding : 2% !important;
+}
+.logo{
+    width: 7%;
 }
