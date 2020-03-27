@@ -8,7 +8,7 @@ nav {
 }
 
 .carroussel {
-    height: calc(100VH - 64px);
+    height: calc(85VH - 64px);
     text-align: center;
 }
 
@@ -96,3 +96,7 @@ nav {
 .logo{
     width: 7%;
 }
+.presentation{
+text-align: center;
+    margin: 5%;
+ }
